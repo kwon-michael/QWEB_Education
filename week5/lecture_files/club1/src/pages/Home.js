@@ -28,14 +28,14 @@ function Home() {
 
   return (
     <>
-      <section className="carousel">
+      <section className="w-screen mx-auto h-screen bg-red">
         <Carousel images={carouselImages} />
       </section>
-      <section className="about-section">
-        <div className="info-card">
+      <section className="bg-green-500 p-20 text-white font-normal">
+        <div className="flex">
           <div>
-            <span className="section-header">About QPWC</span>
-            <p>
+            <span className="text-2xl font-semibold">About QPWC</span>
+            <p className="text-sm">
               At QPWC, our mission is to turn everyone into first class
               stalkers. When you first join our squad we provide you with free
               binocolurs to get started! Not hooked yet, well see our upcoming
